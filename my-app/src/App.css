@@ -1,0 +1,94 @@
+body{
+  background-color:#14191f;
+}
+.App {
+  margin: 50px 30px;
+  padding: 25px 15px;
+}
+.titel{
+   text-align: center;
+   color:#ffffff ;
+   cursor: grab;
+  }
+  .titell{
+    text-align: center;
+    color:#f05454 ;
+    cursor: grab;
+   }
+.to-do{
+  direction:"row" 
+  alignitems
+}
+
+.to-do ul li{
+  font-weight: 650;
+  gap: 11px;
+  list-style-type: none;
+  width: 180px;
+  overflow-wrap:break-word;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.done{
+  text-decoration: line-through;
+}
+.delete{
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 6px 30px;
+  border: #14191f  1px solid;
+}
+
+.btndelete{
+  cursor: pointer;
+  margin-left: 48%;
+}
+.btnadd{
+  cursor:pointer ;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: x-large;
+  background-color:#ff4343 ;
+  width: 155px;
+  height: 38px;
+  margin-left: 1%;
+  border:2px solid wheat;
+  border-radius: 4px;
+}
+.input{
+  width :945px;
+  height: 32px;
+  margin-left: 5%;
+}
+.btninput{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.three{
+  margin-left: 22px;
+}
+
+.savebtn{
+  margin-left: 8px;
+  height: 26px;
+  padding-bottom: 25px;
+  background-color:#15e783 ;
+  border:2px solid #14191f;
+  border-radius: 4px;
+}
+
+.inp{
+  height: 59%;
+ padding-top: 5px;
+
+}
+.saves{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
